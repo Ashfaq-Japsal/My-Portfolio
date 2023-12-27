@@ -1,0 +1,334 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.first-container {
+    background-color: rgb(25, 29, 29);
+    /* height: 100vh; */
+    /* border: 1px solid red; */
+}
+
+.second-container {
+    background-color: rgb(11, 12, 12);
+    height: 100vh;
+}
+
+.third-container {
+    background-color: rgb(11, 12, 12);
+    height: 100vh;
+    /* border: 1px solid red; */
+}
+
+/* 1st Container */
+.logo {
+    width: 65%;
+    height: 23vh;
+    margin: auto;
+    margin-top: 10%;
+    position: relative;
+    /* border: 1px solid red; */
+}
+
+.logo img {
+    width: 100%;
+    height: 22vh;
+}
+
+.logo div::before {
+content: "";
+width: 20px;
+height: 20px;
+border-top: 3px solid red;
+border-right: 3px solid red;
+position: absolute;
+top: 16%;
+right: 13%;
+}
+
+.logo div::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-bottom: 3px solid red;
+    border-left: 3px solid red;
+    position: absolute;
+    top: 65%;
+    right: 70%;
+    }
+
+.contact-icons {
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid red; */
+    width: 65%;
+    margin: auto;
+}
+
+.contact-icons div{
+    margin-left: 18%;
+        /* border: 1px solid red; */
+}
+
+.contact-icons a {
+    color: aliceblue;
+        /* border: 1px solid red; */
+}
+
+.contact-icons div a:hover {
+    color: rgb(114, 106, 180);
+        /* border: 1px solid red; */
+}
+
+.navbar {
+    /* border: 1px solid red; */
+    position: relative;
+    margin-top: 15%;
+}
+
+.navbar div {
+    width: 60%;
+    margin: auto;
+    margin-top: 5%;
+    color: aliceblue;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.navbar a:hover {
+    color: rgb(114, 106, 180);
+}
+
+.navbar div.active a {
+color: rgb(238, 64, 54);
+}
+
+.navbar div.resume a {
+    margin-left: 7%;
+}
+
+.navbar div.portfolio a {
+    margin-left: 10%;
+}
+
+.navbar div.services a {
+    margin-left: 7%;
+}
+
+.navbar div.contact a {
+    margin-left: 7%;
+}
+
+.navbar div i {
+    margin-right: 8%;
+}
+
+.navbar div.home::after{
+    content: "";
+    width: 39%;
+    height: 2px;
+    background-color: rgb(51, 51, 51);
+    position: absolute;
+    top: 19%;
+    left: 33%;
+}
+
+.navbar div.about::after{
+    content: "";
+    width: 39%;
+    height: 2px;
+    background-color: rgb(51, 51, 51);
+    position: absolute;
+    top: 34.5%;
+    left: 33%;
+}
+
+.navbar div.resume::after{
+    content: "";
+    width: 39%;
+    height: 2px;
+    background-color: rgb(51, 51, 51);
+    position: absolute;
+    top: 50%;
+    left: 33%;
+}
+
+.navbar div.portfolio::after{
+    content: "";
+    width: 39%;
+    height: 2px;
+    background-color: rgb(51, 51, 51);
+    position: absolute;
+    top: 65%;
+    left: 33%;
+}
+
+.navbar div.services::after{
+    content: "";
+    width: 39%;
+    height: 2px;
+    background-color: rgb(51, 51, 51);
+    position: absolute;
+    top: 81%;
+    left: 33%;
+}
+
+.navbar div.contact::after{
+    content: "";
+    width: 39%;
+    height: 2px;
+    background-color: rgb(51, 51, 51);
+    position: absolute;
+    top: 96%;
+    left: 33%;
+}
+
+/* 2nd Container */
+.second-container div.main-text {
+    color: aliceblue;
+    margin-top: 25%;
+    margin-left: 5%;
+    /* border: 1px solid red; */
+    height: 50vh;
+}
+
+.second-container div span.name {
+    color: red;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.second-container div span {
+    color: red;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+
+.second-container div p {
+    font-size: large;
+}
+
+/* 3rd Container */
+.third-container{
+    position: relative;
+    /* border: 1px solid red; */
+}
+.third-container div {
+    margin-left: 14%;
+    margin-top: 38%;
+    height: 60%;
+    width: 70%;
+    /* border: 1px solid red; */
+}
+
+.third-container div img {
+    width: 100%;
+    height: 100%;
+}
+
+.third-container div::before{
+    content: "";
+    width: 50px;
+    height: 50px;
+    border-top: 3px solid red;
+    border-left: 3px solid red;
+    position: absolute;
+    top: 16%;
+    left: 6%;
+}
+
+.third-container div::after{
+    content: "";
+    width: 50px;
+    height: 50px;
+    border-bottom: 3px solid red;
+    border-right: 3px solid red;
+    position: absolute;
+    bottom: 16%;
+    right: 6%;
+}
+
+/* About Section */
+.btn {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(238, 64, 54);
+    color: aliceblue;
+    margin: 5% 40px;
+    /* border: 1px solid red; */
+}
+
+.btn:hover {
+    background-color: rgb(114, 106, 180);
+    color: aliceblue;
+}
+
+.second-container div.about-main-text {
+    color: aliceblue;
+    margin-top: 18%;
+    margin-left: 5%;
+    /* border: 1px solid red; */
+    height: 50vh;
+}
+
+.second-container h3 {
+    color: rgb(157, 146, 255);
+}
+
+/* Portfolio Section */
+.second-container div.portfolio-main-text {
+    color: aliceblue;
+    width: 25%;
+    height: 10vh;
+    margin-top: 5%;
+    margin-left: 3%;
+    /* border: 1px solid red; */
+}
+
+hr {
+    background-color: rgb(157, 146, 255);
+    height: 2px;
+}
+
+/* Contact Section */
+.second-container div.contact-main-text {
+    color: aliceblue;
+    width: 25%;
+    height: 10vh;
+    margin-top: 5%;
+    /* border: 1px solid red; */
+}
+
+.second-container div {
+    margin-left: 3%;
+}
+
+.contact-second-container div{
+    color: rgb(157, 146, 255);
+}
+
+.contact-second-container a{
+    color: rgb(157, 146, 255);
+    text-decoration: none;
+}
+
+.second-container i {
+    margin-right: 5%;
+}
+
+div.map {
+    width: 95%;
+    height: 60vh;
+    /* border: 1px solid red; */
+}
+
+div.map img {
+    width: 100%;
+    height: auto;
+}
+
+/* Services Section */
